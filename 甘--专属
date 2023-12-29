@@ -1,0 +1,115 @@
+local CoreGui = game:GetService("StarterGui") -- Variable of StarterGui
+
+CoreGui:SetCore("SendNotification", {
+    -- Customizable
+    Title = "超级白名单",
+    Text = "无白名单可使用",
+    Duration = 3, --时间
+})
+
+local CoreGui = game:GetService("StarterGui") -- Variable of StarterGui
+
+local Whitelisted = false;
+
+if game.Players.LocalPlayer.Name == "shushenmiao1" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "shushenmiao" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "shushenmiao3" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == " " then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == " " then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == " " then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == " " then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == " " then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == " " then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "玩家用户名" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "玩家用户名" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "玩家用户名" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "玩家用户名" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "玩家用户名" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "玩家用户名" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "玩家用户名" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "玩家用户名" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "玩家用户名" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "玩家用户名" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "玩家用户名" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "玩家用户名" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "玩家用户名" then 
+Whitelisted = true 
+end
+
+if game.Players.LocalPlayer.Name == "玩家用户名" then 
+Whitelisted = true 
+end
+
+if Whitelisted == true then
+
+CoreGui:SetCore("SendNotification", {
+    -- Customizable
+    Title = "白名单认证",
+    Text = "玩家:"..game.Players.LocalPlayer.Name.."，你是白名单玩家，稍后会加载出专属脚本",
+    Duration = 7, --时间
+})
+
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/CN1919810/gan/main/%E7%94%98--%E9%80%89%E6%8B%A9.lua'),true))()
